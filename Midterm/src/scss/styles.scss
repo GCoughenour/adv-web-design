@@ -1,9 +1,18 @@
 // Variable Overrides
 
-$theme-colors: (
-    "primary": #d95700
-);
 
 //Bootstrap Sass Files
 @import "node_modules/bootstrap/scss/bootstrap";
 
+.fa{
+    padding: 5px;
+}
+
+.jumbotron{
+    border: 0.5px solid black;
+    img{
+        width: 370px;
+        
+        
+    }
+}
