@@ -7175,3 +7175,8 @@ nav {
   padding: 10px;
   border: 0.5px solid black;
   background-color: gainsboro; }
+
+#logo {
+  max-width: 100%;
+  width: 800px;
+  padding-top: 10px; }
