@@ -10,10 +10,10 @@
 
 .jumbotron{
     border: 0.5px solid black;
-    height: 400px;
+    max-height: 100%;
+    max-width: 100%;
     img{
-        width: 400px;
-        padding: none;
+        width: 350px;
 
     }
 }
@@ -28,6 +28,13 @@
 
 nav{
     border: 0.5px solid gainsboro;
+        a{
+            color: orange;
+            &:hover{
+                color: darkorange;
+            }
+        }
+
 }
 
 #menu{
@@ -35,6 +42,7 @@ nav{
 }
 
 #carousel{
+    max-width: 100%;
     width: 600px;
     margin: 0 auto; /* Added */
     float: none; /* Added */
@@ -50,5 +58,17 @@ nav{
     width: 800px;
     padding-top: 10px;
     
+
+}
+
+footer{
+    background-color: gainsboro;
+    border: 0.5px solid black;
+}
+
+#ww23{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 
 }

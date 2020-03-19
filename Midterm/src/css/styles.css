@@ -7143,10 +7143,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .jumbotron {
   border: 0.5px solid black;
-  height: 400px; }
+  max-height: 100%;
+  max-width: 100%; }
   .jumbotron img {
-    width: 400px;
-    padding: none; }
+    width: 350px; }
 
 .card {
   margin: 0 auto;
@@ -7160,11 +7160,16 @@ a.text-dark:hover, a.text-dark:focus {
 
 nav {
   border: 0.5px solid gainsboro; }
+  nav a {
+    color: orange; }
+    nav a:hover {
+      color: darkorange; }
 
 #menu {
   text-align: center; }
 
 #carousel {
+  max-width: 100%;
   width: 600px;
   margin: 0 auto;
   /* Added */
@@ -7180,3 +7185,15 @@ nav {
   max-width: 100%;
   width: 800px;
   padding-top: 10px; }
+
+footer {
+  background-color: gainsboro;
+  border: 0.5px solid black; }
+
+#ww23 {
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */ }
