@@ -1,9 +1,74 @@
 // Variable Overrides
 
-$theme-colors: (
-    "primary": #d95700
-);
 
 //Bootstrap Sass Files
 @import "node_modules/bootstrap/scss/bootstrap";
 
+.fa{
+    padding: 5px;
+}
+
+.jumbotron{
+    border: 0.5px solid black;
+    max-height: 100%;
+    max-width: 100%;
+    img{
+        width: 350px;
+
+    }
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+nav{
+    border: 0.5px solid gainsboro;
+        a{
+            color: orange;
+            &:hover{
+                color: darkorange;
+            }
+        }
+
+}
+
+#menu{
+    text-align: center;
+}
+
+#carousel{
+    max-width: 100%;
+    width: 600px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    padding: 10px;
+    border: 0.5px solid black;
+    background-color: gainsboro;
+
+}
+
+#logo{
+    max-width: 100%;
+    width: 800px;
+    padding-top: 10px;
+    
+
+}
+
+footer{
+    background-color: gainsboro;
+    border: 0.5px solid black;
+}
+
+#ww23{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+
+}
